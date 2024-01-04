@@ -1,0 +1,60 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body {
+    background-color: #1e1e1e; 
+    font-family: Helvetica, sans-serif; 
+    color: white;
+}
+header {display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 50px;
+color: white;
+border-bottom: 0.1px #ffffff33 solid;
+padding: 0 80px;
+}
+
+.square {margin-left: 5px; font-size: 12px; font-weight: 800;}
+.Logo {display: flex;
+justify-content: space-between;
+align-items: center;}
+ul {display: flex; align-items: center; justify-content: space-between;}
+@media only screen and (max-width: 720px) {
+    ul {display: flex; flex-wrap: wrap;}
+}
+nav li {list-style: none; padding: 0 10px; font-size: 12px;}
+.btn {background-color: rgb(3, 243, 3); border-color: rgb(3, 243, 3); min-height: 2rem; border-radius: 5px; font-size: 0.5rem; width: 5rem;}
+.services {text-align: center; margin: 7px;}
+a {text-decoration: none; color: white;}
+.container {width: 83%; border: 0.1px #ffffff33 solid; margin: 0 auto; padding-top: 20px;}
+@media only screen and (max-width: 1920px) {
+    .container {width: 89.5%;}
+}
+@media only screen and (max-width: 960px) {
+    .container {width: 82%;}
+}
+@media only screen and (max-width: 720px) {
+    .container {width: 78%; }
+}
+.image-container {margin: 20px 75px 0; opacity: 60%; color: white;}
+.sub-container {margin: 50px 30px 20px;}
+.para {font-size: 9.5px; margin-top: 10px; margin-right: 50px;}
+blockquote {padding-top: 9px; height: 40px; padding-left: 7px; width: 25%; font-size: 12px; margin-top: 20px; background-color: grey; border-radius: 5px;}
+h3 {color: grey; margin-left: 30px; margin: 20px 30px;}
+.border {border: 0.1px #ffffff33 solid;}
+.icons-container {
+display: flex; justify-content: space-between; align-items: center;}
+@media only screen and (max-width: 720px) {
+    .icons-container {display: flex; flex-wrap: wrap;}
+}
+.Icon {width: 40px; margin: 10px 0;
+}
+.divs {display: flex; display: flex; justify-content: space-between; align-items: flex-start; flex-direction: column; padding: 0 30px; border-right: 0.1px #ffffff33 solid;}
+p {font-size: 10px;}
+.flex {max-height: 40px; padding-left: 10px; display: flex; justify-content: space-between; align-items: center; border-radius: 5px; border: 0.1px #ffffff33 solid;}
+.one {width: 30px; margin: 5px;}
+.footer { margin: 20px 73px; display: flex; justify-content: space-between; align-items: center;}
+.latest {font-size: 6px;}
+.java {margin-top: 8px;}
+.span {display: flex; display: flex; border-bottom: 0.1px #ffffff33 solid}
